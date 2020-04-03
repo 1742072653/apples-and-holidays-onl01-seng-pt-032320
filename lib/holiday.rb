@@ -76,7 +76,7 @@ def all_supplies_in_holidays(holiday_hash)
   holiday_hash.each do |key,value|
     puts key.capitalize.to_s + ":"
     value.each do |key,value|
-      string =""
+      string = ""
       arr = []
       i = 0
       string << "  " 
