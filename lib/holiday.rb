@@ -72,12 +72,13 @@ def all_supplies_in_holidays(holiday_hash)
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
   # etc.
-  string =""
-  arr= []
-  i=0
+  
   holiday_hash.each do |key,value|
     puts key.capitalize.to_s + ":"
     value.each do |key,value|
+      string =""
+      arr= []
+      i=0
       string << "  " 
       arr = key.to_s.split("_")
       while i < arr.size 
