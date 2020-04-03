@@ -60,7 +60,7 @@ def all_winter_holiday_supplies(holiday_hash)
   arr = []
   holiday_hash.each do |key,value|
     if key == :winter
-      value.each do
+       return value.values.flatten
     end
   end
 
