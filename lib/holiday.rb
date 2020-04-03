@@ -81,6 +81,7 @@ def all_supplies_in_holidays(holiday_hash)
       arr = key.split("_")
       while i < arr.size 
         arr[i].capitalize
+        i += 1
       end
       string << arr.join(" ") +": " + value.join(", ")
     end
