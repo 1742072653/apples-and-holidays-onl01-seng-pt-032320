@@ -80,12 +80,15 @@ def all_supplies_in_holidays(holiday_hash)
       arr = []
       i = 0
       string << "  " 
-      #b
+      
+      # change holiday change to capitalize and separated with space
       arr = key.to_s.split("_") 
       while i < arr.size 
         arr[i]=  arr[i].capitalize
         i += 1
       end
+      
+      
       string << arr.join(" ") + ": " + value.join(", ")
       puts string
     end
