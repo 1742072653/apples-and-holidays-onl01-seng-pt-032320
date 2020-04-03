@@ -105,9 +105,11 @@ def all_holidays_with_bbq(holiday_hash)
   return holidays
 end
 
-
-
-
+string = ""
+each. do
+1  string = " 1 "  puts 1
+2  string = " 2 "   12
+3
 
 
 
